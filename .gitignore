@@ -23,3 +23,14 @@ dist/
 
 # environment variables
 .env
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
